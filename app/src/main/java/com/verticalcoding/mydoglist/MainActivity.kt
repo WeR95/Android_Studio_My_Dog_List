@@ -79,7 +79,7 @@ fun DogListApp() {
 
                 Spacer(modifier = Modifier.width(8.dp))
 
-
+                
                 IconButton(
                     onClick = {
                         searchQuery = dogName
@@ -91,7 +91,7 @@ fun DogListApp() {
 
                 Spacer(modifier = Modifier.width(8.dp))
 
-
+                
                 IconButton(
                     onClick = {
                         if (dogs.any { it.name.equals(dogName, ignoreCase = true) }) {
